@@ -1,6 +1,7 @@
 ﻿@model Framework.Models.Account
 
     <link rel="stylesheet" href="/css/Account.css">
+
     
         <section class="col-12 col-sm-6 col-md-3">
             <form class="form-container " method="post" asp-action="Index">
@@ -30,6 +31,7 @@
                 </div>
             </form>
         </section>
+
 
         @section Scripts {
             @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
